@@ -1,0 +1,41 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    flex-direction: column;
+}
+#Services{
+    flex-direction: column;
+    font-size: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    height: 250px;
+}
+.box h2{
+    font-size: 20px;
+}
+.box img{
+    height: 120px;
+}
+.menu{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.single-menu{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#wrapper{
+    justify-content: center;
+    padding: 10px;
+}
+.menu{
+    justify-content: center;
+}
+.Contact-info{
+    width: 80%;
+}

@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --navbar-height:80px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #F28A80;
+    overflow: hidden;
+    position: relative;
+}
+
+#logo{
+    margin: 2px;
+    padding: 2px;
+    height: auto;
+}
+
+#logo img{
+    height:auto;
+    margin: 12px 60px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.7rem;
+    font-family: cursive;
+}
+
+#navbar ul li a{
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 3px 21px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: white;
+    background-color: black;
+}
+.navbar a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+.navbar .icon{
+    display: none;
+}
+
+#home{
+    display:flex;
+    flex-direction:column;
+    padding: 3px 20px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    float: left;
+    content: "";
+    background: url(https://media.architecturaldigest.com/photos/590cc6c3b3064307ffee59a4/master/w_3000,h_2000,c_limit/Tallest%20Restaurants%20in%20the%20World%207.jpg)no-repeat center center/cover;
+    position: absolute;
+    background-position: left;
+    height: 360px;
+    max-width: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+.first{
+    font-size: 3rem;
+    padding: 25px;
+    color: #F9CCD3;
+    text-align: center;
+    font-family: cursive;
+}
+
+.Services{
+    height: auto;
+
+}
+#services{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+.our-services{
+    font-size: 2.5em;
+    font-family:cursive;
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    border: 2px solid red;
+    padding: 24px;
+    background-color: #FADCD9;
+    margin: 3px 6px;
+    height: 340px;
+    width: 24em;
+    border-radius: 23px;
+}
+
+.box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    margin: 20px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    background-color:#F28A80;
+    color: black;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 1.4em;
+}
+
+.info p{
+    font-size: 1.2rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.8em;
+    padding: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#services .box p{
+    font-size: 1.1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 10px;
+}
+
+.menugroup{
+    text-align: center;
+    margin: bottom 60px;: ;
+}
+
+#wrapper{
+    padding: 30px;
+    margin: 60px auto;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.title h4{
+    text-transform: capitalize;
+    font-size: 36px;
+    display: inline-block;
+    padding: 10px;
+    font-style: italic;
+    background-color: #F9CCD3;
+}
+.title h4 span{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: -10px;
+}
+.title h4:before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 20px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+}
+.single-menu{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid#ddd;
+}
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+    border-bottom: 0;
+}
+.single-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single-menu :hover img{
+    border-radius: 0;
+}
+.single-menu img{
+    height: 200px;
+    max-width: 280px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 1px solid#ddd;
+    padding: 3px;
+    transition: .5s;
+}
+.single-menu h4{
+    text-transform: capitalize;
+    font-size: 22px;
+    border-bottom: 1px solid#333;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.single-menu h4 span{
+    float: right;
+    color: #ff7720;
+    font-style: italic;
+
+}
+.Our-testimonial{
+height: auto;
+background-color: #3B0404;
+opacity: 1;
+}
+section .heading{
+    font-size: 35px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 800;  
+    color: white;  
+}
+.ours{
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+.ours .info{
+    width: 350px;
+    color: #fff;
+    margin: 10px 10px;
+    padding:  20px;
+    border-radius: 3px;
+}
+.info img{
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+.Our-testimonial .img:hover{
+    background-color:white;
+    border-radius: 15px;
+}
+.Our-testimonial img{
+    border-radius: 50%;
+    border-style: solid;
+}
+#contact{
+    position: relative;
+}
+.title-2{
+    font-size: 2rem;
+    text-align: center;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-color:#FADCD9;
+}
+.center{
+    text-align: center;
+    background-color: black;
+    font-size: 1.2em;
+    color: white;
+}
+.Contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.Contact-info form{
+    width: 40%;
+}
+.Contact-info label{
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.Contact-info input,
+.Contact-info textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
